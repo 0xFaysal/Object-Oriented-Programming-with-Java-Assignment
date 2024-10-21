@@ -32,7 +32,7 @@ class GUITest {
             f.add(tf2);
             f.add(b);
 
-
+            //---------------------//
             f.setVisible(true);
      }
 }

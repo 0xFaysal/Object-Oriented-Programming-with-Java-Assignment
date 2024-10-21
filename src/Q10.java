@@ -10,7 +10,6 @@ public class Q10 {
         }
 
         try{
-
             BufferedWriter bw = new BufferedWriter(new FileWriter("e.txt"));
             for(String i : s){
                 bw.write(i);
@@ -25,9 +24,8 @@ public class Q10 {
                 full.append(line).append(" ");
             }
 
-            full = new StringBuilder(full.toString().trim());
             BufferedWriter bw2 = new BufferedWriter(new FileWriter("f.txt"));
-            bw2.write(full.toString());
+            bw2.write(full.toString().trim());
 
             bw.close();
             bw2.close();
